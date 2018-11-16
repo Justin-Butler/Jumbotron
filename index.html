@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jumbotron</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="imgWrapper">
+      <img src="https://www.colorado.com/sites/default/files/CO_PhotoProject2007_0255.jpg" alt="Flock of Birds" id="backImg">
+    </div>
+    <div class="gridContain">
+      <div id="overlay"></div>
+      <div class="contentContain">
+        <div class="breaker"></div>
+        <ion-icon name="remove" class="tColorY" id="icon"></ion-icon>
+        <p class="tColorW fontNoto" id="topEle">PHOTO OF THE DAY</p>
+        <h1 class="tColorY fontNoto" id="titleEle">OCTOBER 2018</h1>
+        <p class="tColorW fontNoto" id="textEle">Every Month we feature a favorite image from thousands. This is the image for this month!</p>
+        <a href="#" class="fontNoto" id="viewButton">
+          VIEW IMAGES 
+          <svg class="icon icon-arrow-right" id="linkArrow"><use xlink:href="#icon-arrow-right"></use>
+            <symbol id="icon-arrow-right" viewBox="0 0 32 32">
+              <title>arrow-right</title>
+              <path d="M31 16l-15-15v9h-16v12h16v9z"></path>
+            </symbol>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.4.6/dist/ionicons.js"></script>
+    <script src="zoom.js"></script>
+  </body>
+</html>
