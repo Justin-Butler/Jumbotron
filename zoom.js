@@ -1,7 +1,3 @@
-//functions
-
-//Global Variables
-
 //Page Start-up
 $('#overlay').animate({opacity: '.8'}, 1000, function(){
   //Breaker Fade in
